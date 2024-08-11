@@ -21,7 +21,7 @@ dbConnection()
 
 // connecting frontend to backend.......
 const options = {
-  origin: process.env.FRONTSITE_URL,
+  origin: "https://secure-server-o19j.onrender.com",
   Credentials: true,
   methods: ["GET", "POST", "PUT","PATCH", "DELETE"],
   allowedHeaders: ["Content-Type", "Authorization"],
